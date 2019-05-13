@@ -1,10 +1,10 @@
 package ex3.animal;
 
 /**
- * @author Guillaume Classe fille d'animal, entité carnivore
+ * @author Guillaume Classe fille d'animal, entité serpent
  *
  */
-public class Carnivore extends Animal {
+public class Serpent extends Animal {
 
 	/**
 	 * Constructor
@@ -12,7 +12,7 @@ public class Carnivore extends Animal {
 	 * @param nomAnimal
 	 * @param comportement
 	 */
-	public Carnivore(String nomAnimal, Comportement comportement) {
+	public Serpent(String nomAnimal, Comportement comportement) {
 		super(nomAnimal, comportement);
 		// TODO Auto-generated constructor stub
 	}

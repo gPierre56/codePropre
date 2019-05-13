@@ -12,6 +12,10 @@ public class ZoneCarnivore extends Zone {
 		return listeAnimaux.size() * 10;
 	}
 
+	/**
+	 * Constructor
+	 * 
+	 */
 	public ZoneCarnivore() {
 		super();
 		// TODO Auto-generated constructor stub

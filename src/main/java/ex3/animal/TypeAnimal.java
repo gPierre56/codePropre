@@ -1,10 +1,16 @@
 package ex3.animal;
 
+/**
+ * @author Guillaume Énumération des types d'animaux disponibles
+ *
+ */
 public enum TypeAnimal {
 
 	MAMMIFERE(1, "MAMMIFERE"), POISSON(2, "POISSON"), SERPENT(3, "SERPENT");
 
+	/** numType : int */
 	private int numType;
+	/** nomType : String */
 	private String nomType;
 
 	/**
